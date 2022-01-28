@@ -1,11 +1,182 @@
 <html>
   <body>
     <head>
-      <title>Resume Tester: Alexandr Fastovets</title>
+      <title>Resume: Alexandr Fastovets</title>
+      <style type="text/css">
+        .block1 { 
+         width: 13%; 
+         height: 1350px;
+         background: #ccc;
+         padding: 5px;
+         padding-right: 20px; 
+         border: solid 1px black; 
+         float: left;
+         margin-left: 10%;
+         margin-bottom: 5%;
+         box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.55);
+         border-radius: 25px 0px 0px 25px;
+         z-index: -1;
+         
+        }
+        .block2 { 
+         width: 70%; 
+         height: 1350px;
+         background: rgb(250, 226, 131); 
+         padding: 5px; 
+         border: solid 1px black; 
+         float: right; 
+         position: relative; 
+         top: 0px; 
+         left: -8%; 
+         box-shadow: 0px 0px 6px rgba(0, 0, 0, 0.55);
+         border-radius: 25px;
+         
+        }
+        .textMenu{
+          
+          font-size: 200%;
+          font-weight: bold;
+          line-height: 9;
+          padding-top: 85%;
+        }
+        .textBasic{
+          font-family:monospace;
+          font-size: 200%;
+          padding: 20px;
+          margin-top: 0.3%;
+          margin-left: 1%;
+        }
+        td, tr{
+          padding: 5px;
+          vertical-align: top;
+        }
+        .pad{
+          padding-left: 50px;
+        }
+        .contact{
+          vertical-align: middle;
+        }
+        .work{
+          padding-top: 20px;
+          padding-left: 30px;
+          padding-right: 30px;
+          background: rgb(248, 205, 35);
+          border-radius: 25px;
+        }
+        .other{
+          font-family:monospace;
+          font-size: 200%;
+          padding: 20px;
+          margin-top: 9%;
+          margin-left: 1%;
+        }
+       </style> 
 
     </head>
-    <H1 align="center">Резюме: Тестировщик</h1>
-<P><img src="technical-debt.jpg" width="1600" align="center"></P>
-    <P>New info in table</P>
+    <H1 align="center"><big>Резюме</big></h1>
+<P align="center"><img src="technical-debt.jpg" width="1600" align="center"></P>
+    <div class="block1">
+      <br><br>
+      <table class="textMenu">
+        <tr>
+          <td>Работа</td>
+        </tr>
+        <tr>
+          <td>Образование</td>
+        </tr>
+        <tr>
+          <td>Дополнительно</td>
+        </tr>
+      </table>
+    </div>
+    <div class="block2">
+      <table class="textBasic">
+        <tr>
+          <td><img src="photoAlex.jpg" alt=""></td>
+          <td>
+            <b>Фастовец Александр Юрьевич</b><br>
+            20.06.1992 <br><br>
+            Junior C# Разработчик<br><br>
+            г. Новосибирск<br>
+            Готов к переезду<br>
+            Работа в офисе предпачтительнее удалёнки.
+            
+          </td>
+          <td></td>
+          <td class="pad" >
+            <b>Контакты</b><br><br>
+            <p><img class="contact" src="Email.png" width="30" height="30"> wardrayv@yandex.ru </p>
+            <p><img class="contact" src="phone.png" width="30" height="30"> +7(913)794-56-40</p>
+
+          </td>
+        </tr>
+      </table>
+        <table class="textBasic">
+        <tr>
+          <td class="work">
+            Июль 2013 <br>
+             Июль 2014
+            </td>
+          <td class="work">
+            <b>Компания:</b> <br>
+             ATI Helper <br>
+            <b>Должность:</b> <br>
+             IT Сервис менеджер <br>
+             <ul>
+               <li>Обслуживание и 
+                сборка ПК</li>
+             </ul>
+          </td>
+          <td class="work">
+            Октябрь 2014 <br>
+            По сей день
+          </td>
+          <td class="work">
+            <b>Компания:</b> <br>
+             ОАО Электросигнал <br>
+            <b>Должность:</b> <br>
+             Инженер-технолог <br>
+             <ul>
+               <li>Регулировка 
+                 процессов 
+                 предприятия</li>
+               
+             </ul>
+          </td>
+        </tr>
+      </table>
+
+      <table class="textBasic">
+        <tr>
+          <td class="work">
+            2017-2022
+          </td>
+          <td class="work">
+            <b>Сибирский государственный университет <br> телекоммуникаций и информатики, Новосибирск</b><br>
+            ИВТ, Программист
+          </td>
+          <td class="work">
+            <b>Доп. Курсы:</b><br>
+            SkillBox <br>
+            QA Тестировщик (Преостановлено)
+          </td>
+        </tr>
+      </table>
+      <table class="other">
+        <tr>
+          <td class="work">
+            <p><b>О себе:</b> 
+              Переехал в Новосибирск в 2014 году, устроился на завод, проработав год призвали в армию. 
+              Как вернулся поступил в СибГУТИ на программиста, начал изучать темы, которые окружают эту специальность и IT в общем. Интересуюсь ПК железом и влиянием информационных технологий на общество, стараюсь быть в курсе новинок.  Помимо хард скиллов, провожу время над улучшением софт скиллов, например: помогая своим одногрупникам усвоить некоторые темы, которые смог усвоить сам. 
+               
+            </p>
+          </td>
+          <td class="work">
+            <p>Ссылка на портфолио</p>
+            <a href="https://github.com/WaRDrayv/Portfolio">https://github.com/WaRDrayv/Portfolio</a>
+          </td>
+        </tr>
+      </table>
+    </div>
   </body>
 </html>
